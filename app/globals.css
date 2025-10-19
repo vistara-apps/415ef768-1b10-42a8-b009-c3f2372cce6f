@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Coinbase Theme - Dark Navy */
+  --color-bg: #0a1929;
+  --color-fg: #e3f2fd;
+  --color-surface: #132f4c;
+  --color-primary: #0052ff;
+  --color-accent: #1976d2;
+  --color-success: #4caf50;
+  --color-danger: #f44336;
+  --color-border: rgba(255, 255, 255, 0.12);
+}
+
+[data-theme="celo"] {
+  --color-bg: #000000;
+  --color-fg: #ffffff;
+  --color-surface: #1a1a1a;
+  --color-primary: #fbcc5c;
+  --color-accent: #ffd966;
+  --color-success: #35d07f;
+  --color-danger: #ff6b6b;
+  --color-border: rgba(251, 204, 92, 0.3);
+}
+
+[data-theme="solana"] {
+  --color-bg: #1a0b2e;
+  --color-fg: #ffffff;
+  --color-surface: #2d1b4e;
+  --color-primary: #9945ff;
+  --color-accent: #14f195;
+  --color-success: #14f195;
+  --color-danger: #ff6b6b;
+  --color-border: rgba(153, 69, 255, 0.3);
+}
+
+[data-theme="base"] {
+  --color-bg: #0052ff;
+  --color-fg: #ffffff;
+  --color-surface: #0045d9;
+  --color-primary: #ffffff;
+  --color-accent: #5b8def;
+  --color-success: #4caf50;
+  --color-danger: #f44336;
+  --color-border: rgba(255, 255, 255, 0.2);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--color-fg);
+  background: var(--color-bg);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--color-border);
+}
