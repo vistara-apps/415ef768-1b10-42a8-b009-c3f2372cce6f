@@ -1,0 +1,36 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "Expert On Demand Diagnostics",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://app-372cce6f-o7ma.vercel.app",
+    "imageUrl": "https://415ef768-1b10-42a8-b009-c3f2372cce6f.vercel.app/image.png",
+    "splashImageUrl": "https://415ef768-1b10-42a8-b009-c3f2372cce6f.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "webhookUrl": "https://app-372cce6f-o7ma.vercel.app/api/webhook",
+    "subtitle": "Built with Zara",
+    "description": "Expert On Demand Diagnostics is a Base Mini App built with Zara.",
+    "screenshotUrls": [
+      "https://415ef768-1b10-42a8-b009-c3f2372cce6f.vercel.app/screenshot1.png",
+      "https://415ef768-1b10-42a8-b009-c3f2372cce6f.vercel.app/screenshot2.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "heroImageUrl": "https://415ef768-1b10-42a8-b009-c3f2372cce6f.vercel.app/hero.png",
+    "tagline": "Expert On Demand Diagnostics",
+    "buttonTitle": "Open mini app",
+    "ogTitle": "Expert On Demand Diagnostics",
+    "ogDescription": "Expert On Demand Diagnostics is a Base Mini App built with Zara.",
+    "ogImageUrl": "https://415ef768-1b10-42a8-b009-c3f2372cce6f.vercel.app/og-image.png",
+    "castShareUrl": "https://warpcast.com/~/compose?text=Check+out+Expert%20On%20Demand%20Diagnostics+at+https%3A%2F%2F415ef768-1b10-42a8-b009-c3f2372cce6f.vercel.app"
+  }
+}
